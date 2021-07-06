@@ -1,6 +1,7 @@
 function Home(){
     return (
         <Card 
+            bgcolor="info"
             txtcolor="black"
             header="BadBank Landing Page"
             title="Welcom to the bank"
