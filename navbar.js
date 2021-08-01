@@ -8,15 +8,24 @@ function NavBar(){
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <a className="nav-link active" aria-current="page" href="#/CreateAccount/">Create Account</a>
-                    <a className="nav-link" href="#/login/">Login</a>
-                    <a className="nav-link" href="#/deposit/">Deposit</a>
-                    <a className="nav-link" href="#/withdraw/">Withdraw</a>
-                    <a className="nav-link" href="#/balance/">Balance</a>
-                    <a className="nav-link" href="#/alldata/">AllData</a>
+                <ul className="navbar-nav ms-auto mb-2 mb-1g-0">
+                    <li className="nav-item">
+                        <a className="nav-link active" aria-current="page" href="#/CreateAccount/">Create Account</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#/balance/">Balance</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#/deposit/">Deposit</a>
+                    </li>
                     
-                </div>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#/withdraw/">Withdraw</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#/alldata/">AllData</a>
+                    </li>
+                </ul>
             </div>
         </div>
         </nav>
